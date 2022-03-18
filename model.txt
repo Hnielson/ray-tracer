@@ -1,0 +1,53 @@
+1 // version number
+0 0 200 // eye
+0 0 0 // at
+0 1 0 // up
+1 // distance to near plane
+2000 // distance to far plane
+45	// field of view
+700 // screen_x
+500 // screen_y
+
+2 // number of point lights
+-200 20 200 // light position
+100 60 -120 // light position
+
+6 // number of spheres.
+0 10 0 // origin
+10 // radius
+.12 .02 .14 // Ambient red, green, blue
+.6 .1 .7 // Diffuse red, green, blue
+.5 .5 .5 50 // Specular r,g,b and exponent.
+
+0 -10 0 // origin
+20 // radius
+.12 .02 .14 // Ambient red, green, blue
+.6 .1 .7 // Diffuse red, green, blue
+.5 .5 .5 50 // Specular r,g,b and exponent.
+
+0 -40 0 // origin
+30 // radius
+.12 .02 .14 // Ambient red, green, blue
+.6 .1 .7 // Diffuse red, green, blue
+.5 .5 .5 50 // Specular r,g,b and exponent.
+
+// Blue ground
+0 -5050 0 // origin
+5000 // radius
+.04 .02 .12 // Ambient red, green, blue
+.2 .1 .6 // Diffuse red, green, blue
+.5 .5 .5 70 // Specular r,g,b and exponent.
+
+// Green sphere in background
+-20 10 -120 // origin
+90 // radius
+.04 .14 .04 // Ambient red, green, blue
+.2 .7 .2 // Diffuse red, green, blue
+.5 .5 .5 50 // Specular r,g,b and exponent.
+
+// First Arm
+20 -10 0 // origin
+15 // radius
+1.0 .1 .2 // ambient rgb
+.7 .3 .2 // diffuse rgb
+1.0 1.0 .6 80 // specular rgb
